@@ -36,7 +36,7 @@ body {
 .link {
   text-decoration: none;
 }
-.firstsection {
+.mainsection {
   background-color: var(--background-color);
   /* position: absolute;
   width: 1600px;
@@ -44,7 +44,7 @@ body {
   left: 0px;
   top: 0px; */
 }
-.secondsection {
+.ordersection {
   background-color: var(--background-color2);
   /* position: absolute;   
   width: 1600px;
@@ -52,16 +52,16 @@ body {
   left: 0px;
   top: 80px; */
 }
-.thirdsection {
+.section {
   background-color: var(--background-color);
 }
-.fourthsection {
+.whatwedosection {
   background-color: var(--background-color);
 }
-.fifthsection {
+.teamsection {
   background-color: var(--background-color3);
 }
-.sixthsection {
+.contactsection {
   background-color: var(--background-color2);
 }
 .movementlinks a {
@@ -104,7 +104,7 @@ body {
 .contacts a:hover {
   color: #2196f3;
 }
-.secondsection h1 {
+.ordersection h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -116,7 +116,7 @@ body {
 
   color: #ffffff;
 }
-.secondsection button {
+.ordersection button {
   width: 200px;
   height: 50px;
   left: 700px;
@@ -202,4 +202,49 @@ body {
 }
 .teamdescription li {
   list-style-type: none;
+}
+.portfoliobuttons button {
+  height: 38px;
+  left: 639px;
+  top: 174px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portfoliobuttons li {
+  list-style-type: none;
+}
+.portfoliobuttons button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.projectlist li {
+  list-style-type: none;
+}
+.projectlist h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+}
+.projectlist p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
