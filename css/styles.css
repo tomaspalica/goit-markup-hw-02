@@ -15,14 +15,14 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 100%;
 }
 .webstudio {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 100%;
   color: #000000;
 }
 .webstudio2 {
@@ -30,7 +30,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 100%;
   color: #ffffff;
 }
 .link {
@@ -68,7 +68,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -82,16 +82,14 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.02em;
   color: #757575;
 }
 
 .contacts address {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -107,7 +105,7 @@ body {
 .ordersection h1 {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 116%;
   /* or 136% */
 
   text-align: center;
@@ -127,7 +125,7 @@ body {
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 160%;
   /* identical to box height, or 188% */
 
   display: flex;
@@ -138,18 +136,15 @@ body {
   cursor: pointer;
 }
 .loremipsum h4 {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .loremipsum p {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -160,10 +155,9 @@ body {
   list-style-type: none;
 }
 .whatwedo {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 100%;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -171,28 +165,24 @@ body {
   list-style-type: none;
 }
 .team {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 100%;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .teamdescription h4 {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 100%;
   /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
 }
 .teamdescription p {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 100%;
   /* identical to box height */
 
   text-align: center;
@@ -214,7 +204,7 @@ body {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 139%;
   /* identical to box height, or 162% */
 
   text-align: center;
@@ -233,15 +223,14 @@ body {
 .projectlist h4 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 171%;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
 }
 .projectlist p {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 160%;
   /* identical to box height, or 188% */
 
   letter-spacing: 0.03em;
